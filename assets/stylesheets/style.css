@@ -1,0 +1,178 @@
+html {
+  --dodger-blue: rgb(0, 119, 197);
+  --light-gray: rgb(80, 80, 80);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(236, 238, 241);
+}
+
+a {
+  color: var(--dodger-blue);
+  text-decoration: none;
+}
+
+.sign-in-container {
+  display: flex;
+  justify-content: end;
+  padding: 10px 30px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.sign-in-question {
+  color: var(--light-gray);
+  margin-bottom: 5px;
+}
+
+.button {
+  background: blue;
+  background: var(--dodger-blue);
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.sign-in-button {
+  padding: 8px 20px;
+  margin-left: 10px;
+}
+
+.logos-container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sister-logos {
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.intuit-logo {
+  width: 115px;
+  height: 33px;
+  background: url(../images/icon_sprite.png);
+}
+
+.mint-logo {
+  width: 64px;
+  height: 22px;
+  background: url(../images/icon_sprite.png) -254px 26px;
+}
+
+.quickbooks-logo {
+  width: 125px;
+  height: 22px;
+  background: url(../images/icon_sprite.png) -115px 26px;
+}
+
+.turbotax-logo {
+  width: 100px;
+  height: 22px;
+  background: url(../images/icon_sprite.png) 0px 26px;
+}
+
+.form-container {
+  width: 340px;
+  border: 1px solid rgb(208, 207, 207);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+form {
+  padding: 10px 20px;
+}
+
+form label {
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+form label:first-of-type {
+  margin: 0;
+}
+
+form input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-container,
+footer {
+  background: white;
+}
+
+.sign-up-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sign-up-header h1 {
+  color: #393a3d;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sign-up-header h2 {
+  color: #393a3d;
+}
+
+.more-info {
+  font-size: 14px;
+}
+
+.recommendation {
+  color: var(--light-gray);
+}
+
+.fine-text {
+  font-size: 10px;
+}
+
+.create-account-button {
+  padding: 16px 30px;
+  margin: 20px auto;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+.reCAPTCHA {
+  background: #eceef1;
+  padding: 20px;
+}
+
+em {
+  font-style: italic;
+}
+
+.account-legal a {
+  color: var(--light-gray);
+}
+
+.account-legal {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.account-legal li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.account-legal-text {
+  margin-top: 20px;
+  color: var(--light-gray);
+}
+
+footer {
+  padding: 20px;
+}
